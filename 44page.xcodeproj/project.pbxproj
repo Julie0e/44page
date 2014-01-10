@@ -21,6 +21,7 @@
 		007BA6AE187FBCC200B5D49A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BA690187FBCC200B5D49A /* UIKit.framework */; };
 		007BA6B6187FBCC200B5D49A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 007BA6B4187FBCC200B5D49A /* InfoPlist.strings */; };
 		007BA6B8187FBCC200B5D49A /* _4pageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BA6B7187FBCC200B5D49A /* _4pageTests.m */; };
+		007BA6C3187FBD8100B5D49A /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BA6C2187FBD8100B5D49A /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		007BA6B3187FBCC200B5D49A /* 44pageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "44pageTests-Info.plist"; sourceTree = "<group>"; };
 		007BA6B5187FBCC200B5D49A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		007BA6B7187FBCC200B5D49A /* _4pageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4pageTests.m; sourceTree = "<group>"; };
+		007BA6C1187FBD8100B5D49A /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		007BA6C2187FBD8100B5D49A /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				007BA6A2187FBCC200B5D49A /* ViewController.m */,
 				007BA6A4187FBCC200B5D49A /* Images.xcassets */,
 				007BA693187FBCC200B5D49A /* Supporting Files */,
+				007BA6C1187FBD8100B5D49A /* ModalViewController.h */,
+				007BA6C2187FBD8100B5D49A /* ModalViewController.m */,
 			);
 			path = 44page;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007BA6C3187FBD8100B5D49A /* ModalViewController.m in Sources */,
 				007BA6A3187FBCC200B5D49A /* ViewController.m in Sources */,
 				007BA69D187FBCC200B5D49A /* AppDelegate.m in Sources */,
 				007BA699187FBCC200B5D49A /* main.m in Sources */,
