@@ -31,7 +31,7 @@
 }
 - (IBAction)closeModalVC:(id)sender
 {
-    ViewController *mainVC = (ViewController *)self.presentedViewController;
+    ViewController *mainVC = (ViewController *)self.presentingViewController;
     mainVC.mainInput.text = self.nodalInput.text;
     [self dismissViewControllerAnimated:YES completion:nil];
 }

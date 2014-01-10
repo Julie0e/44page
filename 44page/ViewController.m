@@ -16,7 +16,7 @@
 @implementation ViewController
 
 
-- (BOOL)textFieldSouldRetern:(UITextField *)textField
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
     return YES;
